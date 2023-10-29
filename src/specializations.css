@@ -1,0 +1,134 @@
+p {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  line-height: 1.5em;
+}
+
+h3 {
+  line-height: 1.5em;
+}
+
+#quote {
+  background-color: black;
+  position: absolute;
+  top: 46%;
+  width: 58%;
+  height: 15%;
+  z-index: 10;
+  left: 21%;
+}
+
+/* The below CSS code for the type writer effect was copied from https://css-tricks.com/snippets/css/typewriter-effect/ */
+.typewriter h2 {
+  color: #fff;
+  font-family: "Press Start 2P";
+  line-height: 1.5em;
+  font-size: 1.7em;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 25s steps(25, end) 1,
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% {
+    width: 0
+  }
+
+  10% {
+    width: 100%
+  }
+
+  100% {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: white
+  }
+}
+
+@keyframes fade {
+
+  0% {
+    opacity: 0%;
+  }
+  75% {
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+#compsci {
+  top: 1%;
+  left: 9%;
+  width: 110%;
+  z-index: 20;
+  opacity: 100%;
+  position: fixed;
+
+  animation-name: fade;
+  animation-play-state: running;
+  animation-duration: 5s;
+}
+
+#compsciwrite {
+  top: 8%;
+  left: 12%;
+  width: 110%;
+  z-index: 30;
+  opacity: 100%;
+  position: fixed;
+
+  animation-name: fade;
+  animation-play-state: running;
+  animation-duration: 5s;
+}
+
+#bioeng {
+  top: 57%;
+  left: 9%;
+  width: 110%;
+  z-index: 20;
+  opacity: 100%;
+  position: fixed;
+
+  animation-name: fade;
+  animation-play-state: running;
+  animation-duration: 5s;
+}
+
+#bioengwrite {
+  top: 65%;
+  left: 14%;
+  width: 110%;
+  z-index: 30;
+  opacity: 100%;
+  position: fixed;
+
+  animation-name: fade;
+  animation-play-state: running;
+  animation-duration: 5s;
+}

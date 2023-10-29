@@ -1,0 +1,88 @@
+#navigationbox {
+  width: 15%;
+  height: 100%;
+  bottom: 0%;
+  background-color: black;
+  position: absolute;
+  left: -0%;
+  z-index: 20;
+}
+
+#sideboxright {
+  width: 5%;
+  height: 100%;
+  bottom: 0%;
+  background-color: black;
+  position: absolute;
+  left: 95%;
+  z-index: 20;
+}
+
+#mario {
+  position: fixed;
+  top: 45vh;
+  left: 2vw;
+  background-color: black;
+  width: 1vw;
+  z-index: 0;
+}
+
+#home {
+  position: absolute;
+  top: 3vh;
+  right: 35%;
+}
+
+#about {
+  position: absolute;
+  top: 11vh;
+  right: 30%;
+}
+
+#work {
+  position: absolute;
+  top: 19vh;
+  right: 15%;
+}
+
+#connect {
+  position: absolute;
+  top: 27vh;
+  right: 20%;
+}
+
+#contact {
+  position: absolute;
+  top: 85vh;
+  right: 18%;
+}
+
+#phone {
+  position: absolute;
+  top: 91vh;
+  right: 23%;
+  font-size: x-small;
+}
+
+#email {
+  position: absolute;
+  top: 95vh;
+  right: 17%;
+  font-size: x-small;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(145, 27, 21);
+}
+
+a:active {
+  color: white;
+}

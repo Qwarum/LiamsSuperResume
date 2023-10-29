@@ -1,0 +1,235 @@
+body {
+  color: white;
+  font-family: "Press Start 2P";
+  background-color: black;
+}
+
+/*Title Screen CSS work*/
+#mario1 {
+  position: fixed;
+  top: 60vh;
+  left: 5vw;
+  background-color: black;
+  width: 1vw;
+  z-index: 0;
+
+  animation: marioWalk;
+  animation-play-state: running;
+  animation-duration: 7s;
+  animation-delay: 2.2s;
+
+}
+
+@keyframes marioWalk {
+  from {
+    margin-left: 0vw;
+  }
+
+  to {
+    margin-left: 85vw
+  }
+}
+
+#coin1 {
+  position: fixed;
+  top: 67vh;
+  left: 20vw;
+  background-color: black;
+  width: 1vw;
+  float: left;
+
+  animation: coin;
+  animation-play-state: running;
+  animation-duration: 10s;
+  animation-delay: 2.4s;
+}
+
+@keyframes coin {
+  0% {
+    opacity: 1;
+  }
+
+  0% {
+    margin-top: 0vh;
+  }
+
+  10% {
+    margin-top: -14vh;
+  }
+
+  11% {
+    opacity: 1;
+  }
+
+  12% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+  100% {
+    margin-top: 60vh;
+  }
+}
+
+#coin2 {
+  position: fixed;
+  top: 67vh;
+  left: 31vw;
+  background-color: black;
+  width: 1vw;
+  float: left;
+
+  animation: coin;
+  animation-play-state: running;
+  animation-duration: 10s;
+  animation-delay: 3s;
+}
+
+#coin3 {
+  position: fixed;
+  top: 67vh;
+  left: 42vw;
+  background-color: black;
+  width: 1vw;
+  float: left;
+
+  animation: coin;
+  animation-play-state: running;
+  animation-duration: 10s;
+  animation-delay: 3.3s;
+}
+
+#coin4 {
+  position: fixed;
+  top: 67vh;
+  left: 53vw;
+  background-color: black;
+  width: 1vw;
+  float: left;
+
+  animation: coin;
+  animation-play-state: running;
+  animation-duration: 10s;
+  animation-delay: 3.8s;
+}
+
+#coin5 {
+  position: fixed;
+  top: 67vh;
+  left: 64vw;
+  background-color: black;
+  width: 1vw;
+  float: left;
+
+  animation: coin;
+  animation-play-state: running;
+  animation-duration: 10s;
+  animation-delay: 4.3s;
+}
+
+#coin6 {
+  position: fixed;
+  top: 67vh;
+  left: 75vw;
+  background-color: black;
+  width: 1vw;
+  float: left;
+
+  animation: coin;
+  animation-play-state: running;
+  animation-duration: 10s;
+  animation-delay: 5s;
+}
+
+#pipe {
+  position: fixed;
+  top: 70vh;
+  right: 72px;
+  background-color: black;
+  width: 1vw;
+  float: right;
+  transform: rotate(270deg);
+  z-index: 2;
+  border: 0px;
+}
+
+#super {
+  position: fixed;
+  top: 12vh;
+  left: 14vw;
+  background-color: black;
+  width: .7vw;
+  z-index: 2;
+
+  animation: super;
+  animation-play-state: running;
+  animation-duration: 10s;
+}
+
+@keyframes super {
+  0% {
+    opacity: 0;
+  }
+
+  0% {
+    transform: scaleY(1);
+  }
+
+  15% {
+    opacity: 0;
+  }
+
+  75% {
+    transform: scaleY(1.5);
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#scroll {
+  position: fixed;
+  top: 40vh;
+  left: 39%;
+  z-index: 5;
+  opacity: 0%;
+
+  animation: blink;
+  animation-play-state: running;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 6s;
+}
+h2 {
+  line-height: 1.5em;
+}

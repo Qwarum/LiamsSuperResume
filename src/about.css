@@ -1,0 +1,38 @@
+#aboutme {
+  top: 20%;
+  left: 3%;
+  float: left;
+  position: absolute;
+  text-indent: 10%;
+  width: 25vw;
+}
+
+#prophoto {
+  width: 10%;
+  height: 10%;
+  background-color: rgb(54, 187, 239);
+  position: absolute;
+  top: 30vh;
+  left: 40%;
+  z-index: 25;
+  float: left;
+}
+
+#details {
+  top: 20%;
+  right: 2%;
+  float: right;
+  position: absolute;
+  text-indent: 0%;
+  width: 25vw;
+}
+
+#aboutpage {
+  top: 0%;
+  left: 15%;
+  z-index: 1;
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  background-color:rgb(127, 62, 12);
+}
