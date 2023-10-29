@@ -6,7 +6,7 @@ import AboutPage from './about';
 import CSPage from './compsci';
 import BEEPage from './bioeng';
 import SpecPage from './specializations';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(
