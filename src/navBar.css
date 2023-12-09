@@ -8,6 +8,17 @@
   z-index: 20;
 }
 
+#pipe2 {
+  position: fixed;
+  top: 56vh;
+  left: 2.5vw;
+  background-color: black;
+  width: 1vw;
+  float: left;
+  z-index: 200;
+  border: 0px;
+}
+
 #sideboxright {
   width: 5%;
   height: 100%;
@@ -20,11 +31,16 @@
 
 #mario {
   position: fixed;
-  top: 45vh;
-  left: 2vw;
+  top: 47vh;
+  left: 5vw;
   background-color: black;
-  width: 1vw;
+  width: .5vw;
   z-index: 0;
+
+  animation: marioPipe;
+  animation-play-state: running;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
 }
 
 #home {
@@ -85,4 +101,26 @@ a:hover {
 
 a:active {
   color: white;
+}
+
+@keyframes marioPipe {
+
+  0% {
+    margin-top: 10vh;
+  }
+
+  40% {
+    margin-top: 10vh;
+  }
+
+  60% {
+    margin-top: 0vh;
+  }
+  71% {
+    margin-top: 0vh;
+  }
+  100% {
+    margin-top: 10vh;
+  }
+
 }

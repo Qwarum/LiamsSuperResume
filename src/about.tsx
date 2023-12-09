@@ -9,10 +9,10 @@ function AboutPage() {
       <NavBar></NavBar>
       <div id="aboutpage">
         <center>
-          <h1> Profile </h1>
           <div id="prophoto">
-            <img src="ProfessionalPhotoCircle.jpg" width="250vw" height="250vh" />
+            <img src="profilepicnew.png" width="800vw" height="800vh" />
           </div>
+          <div id="profile"><h1> Profile </h1></div>
           <div id="details">
             <h2>About Me</h2>
             <p>I am a senior in the Engineering school at Cornell University majoring in Computer Science and
@@ -24,15 +24,16 @@ function AboutPage() {
           </div>
           <div id="aboutme">
             <big>
-              <h2>"Details"</h2>
+              <h2>Details</h2>
               <p><b>Name: </b></p>
               <p>Liam Barnes</p>
-              <p><b>Year: </b></p>
-              <p>Senior</p>
-              <p><b>Current Locations:</b></p>
-              <p>Louisville, CO</p>
-              <p>New York City, NY</p>
-              <p>Ithaca, NY</p>
+              <p></p>
+              <p><b>Occupation: </b></p>
+              <p>Software Engineer</p>
+              <p></p>
+              <p><b>Education:</b></p>
+              <p>Bachelor's of Science, 
+                Cornell Engineering</p>
             </big>
           </div>
         </center>

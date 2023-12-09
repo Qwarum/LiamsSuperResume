@@ -22,7 +22,10 @@ function NavBar() {
         <div id="phone">(720)-548-8979</div>
         <div id="email">lnb49@cornell.edu</div>
         <div id="mario">
-          <img src="mario.gif" width="150px" height="150px" />
+          <img src="staticMario.png" width="75px" height="75px" />
+        </div>
+        <div id="pipe2">
+          <img src="mario-pipe-wallpaper-gimp.jpg" width="150px" height="150px" />
         </div>
       </div>
       <div id="sideboxright">

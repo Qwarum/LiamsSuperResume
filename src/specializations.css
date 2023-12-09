@@ -12,6 +12,7 @@ h2 {
 
 h3 {
   line-height: 1.5em;
+  
 }
 
 #quote {
@@ -114,6 +115,8 @@ h3 {
   z-index: 20;
   opacity: 100%;
   position: fixed;
+  border-width: 3px;
+  border-color: black;
 
   animation-name: fade;
   animation-play-state: running;

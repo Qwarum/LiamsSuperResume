@@ -21,7 +21,7 @@ function SpecPage() {
         </div>
       </div>
       <div id="bioeng">
-        <img src="csnodes.jpg" width="75%" height="25%" />
+        <img src="garden.jpg" width="75%" height="25%" />
         <div id="bioengwrite">
           <h1><Link to="/bioeng">Bio-Engineering</Link></h1>
         </div>

@@ -1,19 +1,20 @@
 #aboutme {
   top: 20%;
-  left: 3%;
+  left: -4%;
   float: left;
   position: absolute;
   text-indent: 10%;
-  width: 25vw;
+  width: 30vw;
+  z-index: 30;
 }
 
 #prophoto {
-  width: 10%;
-  height: 10%;
-  background-color: rgb(54, 187, 239);
+  width: 30%;
+  height: 30%;
+  background-color: #463011;
   position: absolute;
-  top: 30vh;
-  left: 40%;
+  top: 5vh;
+  left: 15vw;
   z-index: 25;
   float: left;
 }
@@ -25,6 +26,7 @@
   position: absolute;
   text-indent: 0%;
   width: 25vw;
+  z-index: 30;
 }
 
 #aboutpage {
@@ -34,5 +36,15 @@
   width: 80%;
   height: 100%;
   position: fixed;
-  background-color:rgb(127, 62, 12);
+  background-color:#463011;
+}
+
+#profile {
+  top: 0%;
+  left: 15%;
+  z-index: 30;
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  background-color:transparent;
 }

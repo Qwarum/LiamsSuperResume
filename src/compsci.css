@@ -8,6 +8,58 @@
   background-color:rgb(54, 187, 239);
 }
 
+.button1 {
+  position: absolute;
+  left: 5vw;
+  top: 35%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.button2 {
+  position: absolute;
+  left: 5vw;
+  top: 45%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.button3 {
+  position: absolute;
+  left: 5vw;
+  top: 55%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.button4 {
+  position: absolute;
+  left: 5vw;
+  top: 65%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.button5 {
+  position: absolute;
+  left: 5vw;
+  top: 75%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.box {
+  width: 40%;
+  height: 45%;
+  background-color: black;
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  z-index: 10
+}
+
 #textfront {
   top: 0%;
   left: 15%;
